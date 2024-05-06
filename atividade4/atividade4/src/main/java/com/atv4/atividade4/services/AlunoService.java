@@ -2,6 +2,7 @@ package com.atv4.atividade4.services;
 
 import com.atv4.atividade4.dtos.AlunoDTO;
 import com.atv4.atividade4.entities.Aluno;
+import com.atv4.atividade4.exceptions.ResourceNotFoundException;
 import com.atv4.atividade4.repositories.AlunoRepository;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
